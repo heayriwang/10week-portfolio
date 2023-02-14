@@ -89,9 +89,10 @@
 
 }
 
-#header .mega img {
-    width: 250px;
-    padding: 10px 0;
+
+
+#header .mega .left {
+    background: tomato;
 }
 
 #header .mega .right_menu {
@@ -227,4 +228,24 @@
     position: absolute;
     transform: translate(-50%, -50%) rotate(135deg);
     margin: 0 0 0 900px;
+}
+
+.mainVisual .mainSlide .itm h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin: 200px 0 30px 0;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 2px #333;
+
+}
+
+.mainVisual .mainSlide .itm p {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px 0 30px 0;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 2px #333;
+
 }
