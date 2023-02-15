@@ -249,3 +249,106 @@
     text-shadow: 1px 1px 2px #333;
 
 }
+
+
+/* slideTab */
+#slideTab {
+    position: relative;
+    background: #ddd;
+    height: 900px;
+    padding: 250px 0 0 0;
+}
+
+
+#slideTab h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: -150px 0 20px 0;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 1px #333;
+
+}
+
+#slideTab em {
+    font-size: 0;
+    background: #333;
+    width: 100px;
+    height: 1px;
+    margin: 0 auto;
+}
+
+#slideTab .inner {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    font-size: 15px;
+    font-weight: 500;
+
+    text-align: center;
+    color: #333;
+    text-shadow: 2px 2px 0 #333;
+
+}
+
+#slideTab .menu {
+    display: flex;
+    justify-content: center;
+    margin: 500px auto 30px auto;
+    gap: 30px;
+
+}
+
+
+
+#slideTab .menu button {
+    background: transparent;
+    border: none;
+}
+
+#slideTab .menu>li::after {}
+
+#slideTab .menu>li:hover {}
+
+#slideTab .menu>li.on::after {
+    width: 30px;
+    transition: 0.5s;
+}
+
+#slideTab .con {
+
+    margin: 0 auto;
+    font-size: 0;
+}
+
+#slideTab .con>div {
+    visibility: hidden;
+    height: 0;
+}
+
+#slideTab .con>div.on {
+    visibility: visible;
+    height: auto;
+}
+
+#slideTab .con .sl01 {
+    position: relative;
+
+
+
+}
+
+#slideTab .con .bn {
+    margin: 0 auto;
+}
+
+#slideTab .con .bp {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 1200px;
+    margin: 0 auto;
+    transform: translate(50%, -130%);
+
+}
